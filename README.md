@@ -53,3 +53,9 @@ Requires the following programs:
 - macOS build (`build-mac.yml`) and release (`release-mac.yml`) for Apple Silicon and Intel CPU for macOS 12 and 13.
 
 Note: A new release will be created every time a tag of type `vX.Y.Z` is pushed.
+
+## Installation
+
+```
+zat process-remote --repository-url https://github.com/ssanj/rust-cli-zat  --target-dir <YOUR_TARGET_DIRECTORY>
+```
