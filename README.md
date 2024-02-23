@@ -2,6 +2,12 @@
 
 Defines a basic [Zat](https://github.com/ssanj/zat) repository for a Rust CLI project.
 
+## Installation
+
+```
+zat process-remote --repository-url https://github.com/ssanj/rust-cli-zat  --target-dir <YOUR_TARGET_DIRECTORY>
+```
+
 ## Functionality
 
 - A simple [clap](https://docs.rs/clap/latest/clap) command line argument that accepts a verbosity (along with help and version).
@@ -54,8 +60,3 @@ Requires the following programs:
 
 Note: A new release will be created every time a tag of type `vX.Y.Z` is pushed.
 
-## Installation
-
-```
-zat process-remote --repository-url https://github.com/ssanj/rust-cli-zat  --target-dir <YOUR_TARGET_DIRECTORY>
-```
